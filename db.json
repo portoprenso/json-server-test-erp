@@ -1,16 +1,267 @@
 {
-  "posts":[
+  "users": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "title": "",
+      "description": "",
+      "img": "",
+      "subTitle": "",
+      "secondDescription": "",
+      "secondImg": ""
     }
   ],
-  "comments" : [
+  "tasks": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "2018-07-01T19:55:38Z",
+      "status": false,
+      "status_days": 3,
+      "type": "document",
+      "created_by": "Артур Ю.С.",
+      "responsible": "Вадим Д.А.",
+      "comment": "test",
+      "attach": false,
+      "danger": true,
+      "dots": ""
+    },
+    {
+      "id": 2,
+      "number": "2.604.4",
+      "name": "Задача просрочена, подсвечивается красным",
+      "created_at": "1991-10-10T20:24:22Z",
+      "status": true,
+      "status_days": 1,
+      "type": "document",
+      "created_by": "Богдан Ю.С.",
+      "responsible": "Валерий Д.А.",
+      "comment": "test",
+      "attach": true,
+      "danger": true,
+      "dots": ""
+    },
+    {
+      "id": 3,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "1997-04-21T15:33:34Z",
+      "status": false,
+      "status_days": 2,
+      "type": "document",
+      "created_by": "Иван Ю.С.",
+      "responsible": "Иннокентий Д.А.",
+      "comment": "",
+      "attach": false,
+      "danger": false,
+      "dots": ""
+    },
+    {
+      "id": 4,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "2009-07-08T17:37:06Z",
+      "status": false,
+      "status_days": 2,
+      "type": "document",
+      "created_by": "Руслан Ю.С.",
+      "responsible": "Святополк Д.А.",
+      "comment": "",
+      "attach": true,
+      "danger": false,
+      "dots": ""
+    },
+    {
+      "id": 5,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "2000-05-30T02:59:46Z",
+      "status": false,
+      "status_days": 3,
+      "type": "document",
+      "created_by": "Логгин Ю.С.",
+      "responsible": "Назаренко Д.А.",
+      "comment": "",
+      "attach": false,
+      "danger": false,
+      "dots": ""
+    },
+    {
+      "id": 6,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "1993-11-18T03:33:41Z",
+      "status": false,
+      "status_days": 3,
+      "type": "document",
+      "created_by": "Тимур Ю.С.",
+      "responsible": "Савелий Д.А.",
+      "comment": "",
+      "attach": false,
+      "danger": false,
+      "dots": ""
+    },
+    {
+      "id": 7,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "2012-12-25T01:14:22Z",
+      "status": false,
+      "status_days": 3,
+      "type": "document",
+      "created_by": "Потап Ю.С.",
+      "responsible": "Олег Д.А.",
+      "comment": "",
+      "attach": false,
+      "danger": false,
+      "dots": ""
+    },
+    {
+      "id": 8,
+      "number": "2.604.4",
+      "name": "Задача в процессе выполнения, подсвечивается голубым",
+      "created_at": "1990-09-11T02:16:59Z",
+      "status": false,
+      "status_days": 3,
+      "type": "document",
+      "created_by": "Кольчурин Ю.С.",
+      "responsible": "Назаренко Д.А.",
+      "comment": "",
+      "attach": false,
+      "danger": true,
+      "dots": ""
+    },
+    {
+      "name": "2",
+      "date": "2022-03-31T22:16:31.737Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "3",
+      "files": [
+        {}
+      ],
+      "id": 9
+    },
+    {
+      "name": "",
+      "date": "2022-03-31T22:16:31.737Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "",
+      "files": [
+        {}
+      ],
+      "id": 10
+    },
+    {
+      "name": "",
+      "date": "2022-03-31T22:16:31.737Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "",
+      "files": [
+        {},
+        {}
+      ],
+      "id": 11
+    },
+    {
+      "name": "",
+      "date": "2022-03-31T22:19:58.867Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "",
+      "files": [
+        {}
+      ],
+      "id": 12
+    },
+    {
+      "name": "34",
+      "date": "2022-03-31T22:21:41.405Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "234",
+      "files": {},
+      "id": 13
+    },
+    {
+      "name": "3",
+      "date": "2022-03-31T22:34:49.143Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "4",
+      "files": [
+        {}
+      ],
+      "id": 14
+    },
+    {
+      "name": "",
+      "date": "2022-04-01T04:52:13.773Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "second",
+        "displayValue": "Человек 2"
+      },
+      "comment": "",
+      "files": [
+        {}
+      ],
+      "id": 15
+    },
+    {
+      "name": "",
+      "date": "2022-04-01T04:53:33.558Z",
+      "responsible": {
+        "value": "first",
+        "displayValue": "Принятое решение"
+      },
+      "status": {
+        "value": "first",
+        "displayValue": "Человек 1"
+      },
+      "comment": "",
+      "files": [],
+      "id": 16
     }
   ]
 }
